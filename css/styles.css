@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    }
+
+body,.linkthrou,.directory{
+    color: #212121;
+    }
+
+.logo,.linkthrou,.infolinkh{
+        text-decoration: none;
+    }
+
+.logo,.linkthrou,.infolinkf,footer p{
+        font-style: normal;
+    }
+
+.logo{
+        font-family: 'Raleway',sans-serif; font-size: 26px; line-height: 1.2;
+    }
+
+h2,.linkthrou,.infolinkh,.htitle,.name,.branch{
+        line-height: 1.17;
+    }
+footer p,.infolinkf,.descript{
+        line-height: 1.71;
+    }
+.logo:hover,.logo:focus{
+        color: purple;
+    }
+.linkthrou,.infolinkh,.name{
+        font-weight: 500;
+    }
+h1{
+        font-size: 44px; line-height: 1.36; font-weight: 900;
+    }
+.hsection{
+        font-size: 36px;
+    }
+.camname{
+        font-size: 18px; line-height: 2;
+    }
+footer p,.infolinkh,.htitle,.linkthrou,.descript,.infolinkf{
+        font-size: 14px;
+    }
+.infolinkh,.descript,.branch,.branchp{
+        color: #757575;
+    }
+.btservice,.directory:hover{
+        background-color: #2196F3; line-height: 1.88;
+    }
+h2,.btservice,.htitle,.camname{
+        font-weight: 700;
+    }
+footer p,.descript,.branch,.branchp{
+    font-weight: 400;
+    }
+.name,.branch,.btservice,.branchp{
+    font-size: 16px;
+    }
+.logo,.btservice:hover,.btservice:focus,.linkthrou:hover,.linkthrou:focus,.infolinkh:hover,.infolinkh:focus,.infolinkf:hover,.infolinkf:focus{
+            color: #2196F3;
+    }
+footer, .backgroundh{
+            background-color: #2F303A;
+    }
+h1,footer p,.directory:hover,.btservice{
+            color: #fff;
+    }
+.btservice:hover,.btservice:focus{
+    background-color: #fff;
+    }
+.directory{
+    background-color: #f5f4fa;
+    }
+.btservice,.directory{
+    border: none; cursor: pointer;
+    }
+.directory:focus{
+    border: #212121;
+    }
+.infolinkf{
+        color: #ffffff99;
+    }
+
