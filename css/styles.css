@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -8,132 +12,281 @@ body,
   color: #212121;
 }
 
-.logo,
-.linkthrou,
-.infolinkh {
-  text-decoration: none;
-}
-
-.logo,
-.linkthrou,
-.infolinkf,
-footer p {
+header a,
+address a,
+address p {
   font-style: normal;
+  text-decoration: none;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
 }
 
-h2,
-.linkthrou,
-.infolinkh,
-.htitle,
-.name,
-.branch {
-  line-height: 1.17;
-}
-footer p,
-.infolinkf,
-.descript {
-  line-height: 1.71;
-}
-.logo:hover,
-.logo:focus {
-  color: purple;
-}
-.linkthrou,
-.infolinkh,
-.name {
-  font-weight: 500;
-}
 h1 {
-  font-size: 44px;
-  line-height: 1.36;
   font-weight: 900;
+  font-size: 44px;
 }
-.hsection {
-  font-size: 36px;
-}
-.camname {
-  font-size: 18px;
-  line-height: 2;
-}
-footer p,
-.infolinkh,
-.htitle,
-.linkthrou,
-.descript,
-.infolinkf {
-  font-size: 14px;
-}
-.infolinkh,
-.descript,
-.branch,
-.branchp {
-  color: #757575;
-}
+
 .btservice,
-.directory:hover {
-  background-color: #2196f3;
-  line-height: 1.88;
-}
+.tl,
 h2,
-.btservice,
-.htitle,
-.camname {
+.camname,
+.logo {
   font-weight: 700;
 }
-footer p,
-.descript,
+
+.linkthrou,
+header > div,
+.name,
+.directory {
+  font-weight: 500;
+}
+
+.ds,
 .branch,
+address p,
+.infolinkf,
 .branchp {
   font-weight: 400;
 }
-.name,
-.branch,
-.btservice,
-.branchp {
-  font-size: 16px;
+
+.logo:hover,
+.logo:focus {
+  color: blueviolet;
 }
+
+.linkthrou:hover,
+.infolinkh:hover,
+.infolinkf:hover,
+.linkthrou:focus,
+.infolinkh:focus,
+.infolinkf:focus,
 .logo,
 .btservice:hover,
-.btservice:focus,
-.linkthrou:hover,
-.linkthrou:focus,
-.infolinkh:hover,
-.infolinkh:focus,
-.infolinkf:hover,
-.infolinkf:focus {
+.btservice:focus {
   color: #2196f3;
 }
-footer,
-.backgroundh {
-  background-color: #2f303a;
-}
-h1,
-footer p,
-.directory:hover,
-.btservice {
-  color: #fff;
-}
+
 .btservice:hover,
-.btservice:focus {
+.btservice:focus,
+.face {
   background-color: #fff;
 }
-.directory {
-  background-color: #f5f4fa;
+
+.infolinkh,
+.ds,
+.branch,
+.category {
+  color: #757575;
 }
+
+.hsolutions,
+footer {
+  background-color: #2f303a;
+}
+
+h1,
 .btservice,
-.directory {
-  border: none;
-  cursor: pointer;
+address p,
+.directory button:hover,
+.directory button:focus {
+  color: #fff;
 }
-.directory:focus {
-  border: #212121;
+
+.btservice {
+  border-style: none;
+  padding: 0px;
+  height: 50px;
+  width: 200px;
 }
+
+.category,
+.btservice {
+  line-height: 1.88;
+}
+
+.directory button,
+.btservice {
+  font-family: "Roboto", sans-serif;
+  border-radius: 4px;
+}
+
 .infolinkf {
   color: #ffffff99;
+}
+
+.logo {
+  font-size: 26px;
+}
+
+.linkthrou,
+.infolinkh,
+.tl,
+.ds,
+address p,
+.infolinkf {
+  font-size: 14px;
+}
+
+.btservice,
+.name,
+.branch,
+.directory button,
+.category {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.camname {
+  font-size: 18px;
+}
+
+header nav,
+header div,
+.tl,
+h2,
+.name,
+.branch,
+.logo {
+  line-height: 1.17;
+}
+
+h1 {
+  line-height: 1.36;
+}
+
+.ds,
+address p,
+.footer address {
+  line-height: 1.71;
+}
+
+.branch {
+  line-height: 2;
+}
+
+.btservice,
+.directory button {
+  cursor: pointer;
+}
+
+.directory button {
+  line-height: 1.63;
+  border-color: #212121;
+  border-width: 1px;
+}
+
+.directory button,
+.ourteam {
+  background-color: #f5f4fa;
+}
+
+.directory button:hover,
+.directory button:focus,
+.btservice {
+  background-color: #2196f3;
+}
+
+header {
+  box-sizing: content-box;
+  border-bottom: 1px solid #ececec;
+}
+
+header,
+main,
+header nav,
+header div,
+.ourb .ourbing,
+.ourteam,
+.ourteaminfo,
+.textorg,
+.section,
+.footer address,
+.proyect {
+  display: flex;
+}
+
+.features{  
+  padding: 20px;
+  }
+
+header,
+header nav,
+header div,
+.ourteaminfo,
+.proyect {
+  justify-content: space-between;
+}
+.ourbing{
+  justify-content: center;
+  gap: 30px;
+}
+
+header nav {
+  width: 531px;
+  box-sizing: inherit;
+  padding: 24px 0px 25px 215px;
+}
+
+main,
+header nav,
+header div,
+.section {
+  align-items: center;
+}
+
+header div {
+  width: 303px;
+  box-sizing: inherit;
+  padding: 0px 219px 0px 0px;
+}
+
+.hsolutions,
+.ourb,
+.ourbing,
+.ourteam,
+.ourteaminfo,
+.section,
+.proyect {
+  width: 100%;
+}
+
+main,
+.ourb,
+.section {
+  flex-direction: column;
+}
+
+.container {
+  width: 1200px;
+}
+
+.ourteam {
+  justify-content: center;
+}
+
+.name,
+.branch,
+h1 {
+  text-align: center;
+}
+
+.section {
+  padding: 94px 0px;
+}
+
+address {
+  padding: 60px 0px 60px 215px;
+}
+
+.proyect{
+  flex-wrap: wrap;
+}
+
+.portfoliofig figure {
+  border-bottom: 1px solid #eee;
 }
